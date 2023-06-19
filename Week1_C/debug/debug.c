@@ -11,5 +11,4 @@ int main(void)
 
     // Say hello
     printf("Hello, %s, from %s!\n", name, location);
-    system("PAUSE");
 }
