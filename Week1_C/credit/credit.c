@@ -101,7 +101,5 @@ int main(void)
             }
         }
     }
-
-    system("PAUSE");
 }
 // Fim do exame 10/10!
