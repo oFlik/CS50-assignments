@@ -31,5 +31,4 @@ int main(void)
 
     //Retorna para o usuário a quantidade final
     printf("Years: %i", anos);
-
 }
