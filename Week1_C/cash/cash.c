@@ -35,7 +35,6 @@ int main(void)
 
     // Print total number of coins to give the customer
     printf("%i\n", coins);
-    system("PAUSE");
 }
 
 int get_cents(void)
