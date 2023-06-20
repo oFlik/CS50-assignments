@@ -140,3 +140,4 @@ void unloader(node* current)
     // and return to the previous iteration of this function.
     free(current);
 }
+
