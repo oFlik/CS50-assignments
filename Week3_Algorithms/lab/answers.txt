@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: it has the lowest time against all
+
+sort2 uses: Merge Sort
+
+How do you know?: it has the fastest time among all tests
+
+sort3 uses: Selection Sort
+
+How do you know?: it has a slightly fast time in less numbers than sort3
