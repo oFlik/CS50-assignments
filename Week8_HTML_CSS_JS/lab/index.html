@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            function check(button) {
+                var selected = button.innerText;
+                var correct = "4";
+
+                if (selected === correct) {
+                    button.style.backgroundColor = "green";
+                    document.getElementById("result").innerText = "Correct!";
+                } else {
+                    button.style.backgroundColor = "red";
+                    document.getElementById("result").innerText = "Incorrect";
+                }
+            }
+
+            function check2(){
+                var input = document.getElementById("userInput").value;
+                var right = "yes";
+
+                if (input === right){
+                    document.getElementById("userInput").style.backgroundColor = "green";
+                    document.getElementById("result2").innerText = "Correct!"
+                } else {
+                    document.getElementById("userInput").style.backgroundColor = "red";
+                    document.getElementById("result2").innerText = "Incorrect"
+                }
+                
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What is the result of 2 + 2?</h3>
+                
+                <div class="answers">
+                    <button onclick="check(this)">1</button>
+                    <button onclick="check(this)">2</button>
+                    <button onclick="check(this)">3</button>
+                    <button onclick="check(this)">4</button>
+                </div>
+
+                <div id="result"></div>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>Can we be friends?</h3>
+                
+                <form id="form">
+                    <input type="text" id="userInput" placeholder="yes or no"/>
+                    <input type="submit" onclick="check2()" />
+                </form>
+
+                <br/>
+
+                <div id="result2"></div>
+            </div>
+        </div>
+    </body>
+</html>
