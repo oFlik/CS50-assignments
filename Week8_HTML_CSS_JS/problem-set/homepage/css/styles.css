@@ -1,15 +1,7 @@
-header {
+.header {
     text-align: center;
-    background: cyan url(/Week8_HTML_CSS_JS/problem-set/homepage/imgs/header.jpg) center;
-    border-bottom: 1px solid grey;
-}
-
-#present {
-    margin: 10px 100px;
-    float: left;
-}
-
-#links {
-    margin: 10px 100px;
-    float: right;
+    background-color: rgb(0, 0, 0, 0.2);
+    background-size: 150%;
+    border-top: solid 1px;
+    padding: 5%;
 }
