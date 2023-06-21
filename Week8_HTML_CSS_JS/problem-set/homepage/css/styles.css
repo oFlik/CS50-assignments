@@ -1,7 +1,7 @@
 header {
     text-align: center;
     background: cyan url(/Week8_HTML_CSS_JS/problem-set/homepage/imgs/header.jpg) center;
-    border: 2px solid black;
+    border-bottom: 1px solid grey;
 }
 
 #present {
