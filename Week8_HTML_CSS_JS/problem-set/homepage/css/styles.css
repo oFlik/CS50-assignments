@@ -1,7 +1,28 @@
 .header {
-    text-align: center;
-    background-color: rgb(0, 0, 0, 0.2);
-    background-size: 150%;
-    border-top: solid 1px;
-    padding: 5%;
+    padding: 5%; 
+    background-color: rgba(128, 128, 128, 0.247);  
+    background-image: url(/Week8_HTML_CSS_JS/problem-set/homepage/imgs/hamm.gif);
+    background-repeat: no-repeat;
+    background-position: 90% 70%;
+    background-size: 18%;
+    margin-bottom: 50px;
 }
+
+.header-text{
+    text-align: left;
+    color: black;
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+footer {
+    margin-top: 3%;
+}
+
+@media (max-width: 10px) {
+    .header {
+      background-size: auto;
+    }
+  }
+

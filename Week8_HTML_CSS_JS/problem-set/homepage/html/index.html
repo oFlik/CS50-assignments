@@ -9,26 +9,85 @@
     <title>Homepage</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
+    <nav class="navbar fixed-top navbar-expand-md bg-body-secondary"> 
+        <div class="container-md flex-column justify-content-center">
           <a class="navbar-brand" href="/Week8_HTML_CSS_JS/problem-set/homepage/html/index.html">Flik's 2023</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="movies.html">Movies</a>
-              <a class="nav-link" href="tv-shows.html">Tv Shows</a>
-              <a class="nav-link" href="books.html">Books</a>
-              <a class="nav-link" href="games.html">Games</a>
-            </div>
-          </div>
         </div>
       </nav>
 
       <div class="header">
-        <h1>Project made for Problem Set 8</h1>
-        <h2>Harvard's CS50</h2>
+        <div class="header-text">
+          <h1>Project made for Harvard's CS50</h1>
+          <h2>Problem Set 8</h2>
+          <hr>
+          <h5>All the content that I've consumed this year in 4 categories.</h5>
+          Made with HTML5, CSS and Javascript.
+        </div>
       </div>
+
+      <div class="row row-cols-2 row-cols-md-2 g-5" style="justify-content: center;" >
+        <div class="col" style="width: 30rem;">
+          <div class="card h-100">
+            <a href="/Week8_HTML_CSS_JS/problem-set/homepage/html/games.html">
+              <img src="/Week8_HTML_CSS_JS/problem-set/homepage/imgs/jogos.gif" class="card-img-top" alt="um rapaz jogando videogame" >
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Games</h5>
+              <p class="card-text">Finished games</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 21/04</small>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="width: 30rem;">
+          <div class="card h-100">
+            <a href="/Week8_HTML_CSS_JS/problem-set/homepage/html/movies.html">
+              <img src="/Week8_HTML_CSS_JS/problem-set/homepage/imgs/filmes.gif" class="card-img-top" alt="...">  
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Movies</h5>
+              <p class="card-text">Watched movies</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="width: 30rem;">
+          <div class="card h-100">
+            <a href="/Week8_HTML_CSS_JS/problem-set/homepage/html/tv-shows.html">
+              <img src="/Week8_HTML_CSS_JS/problem-set/homepage/imgs/warmth, frogapples.gif" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Tv Shows</h5>
+              <p class="card-text">TV Shows watched</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="width: 30rem;">
+          <div class="card h-100">
+            <a href="/Week8_HTML_CSS_JS/problem-set/homepage/html/books.html">
+              <img src="/Week8_HTML_CSS_JS/problem-set/homepage/imgs/livros.gif" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Books</h5>
+              <p class="card-text">Books read</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer bg-light">
+        <div class="container text-center">
+          <span class="text-muted">© 2023 Made by Thiago Pereira || @ukvothe</span>
+        </div>
+      </footer>
 </body>
 </html>
