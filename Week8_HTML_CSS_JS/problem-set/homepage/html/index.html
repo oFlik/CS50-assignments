@@ -10,10 +10,15 @@
 </head>
 <body>
     <nav class="navbar sticky-top bg-body-secondary"> 
-        <div class="container-md flex-column justify-content-center">
+        <div class="container-md">
           <a class="navbar-brand" href="/Week8_HTML_CSS_JS/problem-set/homepage/html/index.html">Flik's 2023</a>
+          <div id="demo"></div>
+          <div>
+            <input type="text" id="query" placeholder="Write your name here!" autocomplete="off">
+            <input type="submit" id="buttonQ" onclick="document.getElementById('demo').innerHTML = 'Hello' + document.getElementById('query')">   
+          </div>
         </div>
-      </nav>
+    </nav>
 
       <div class="header">
         <div class="header-text">
