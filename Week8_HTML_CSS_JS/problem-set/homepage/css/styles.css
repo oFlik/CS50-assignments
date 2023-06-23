@@ -49,3 +49,7 @@ footer {
     object-fit: cover;
     object-position:center;
   }
+
+  .checked {
+    color: orange;
+  }
