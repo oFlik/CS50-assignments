@@ -19,13 +19,14 @@ footer {
   }
 
 .header-pages {
-    padding: 8%;
+    padding: 1%;
     background-color: rgba(128, 128, 128, 0.247);
-    margin-bottom: 50px;
 }
 
 .header-text {
     text-align: center;
+    font-family:'Courier New', Courier;
+    font-variant: small-caps;
 }
 
 
@@ -35,3 +36,16 @@ footer {
     justify-content:space-around;
   }
   
+  .carousel {
+    margin: auto;
+    width: 75%;
+    height: calc(70vh - 50px);
+  }
+
+  
+  .carousel-item img {
+    max-width: 100%;
+    height: calc(70vh - 50px);
+    object-fit: cover;
+    object-position:center;
+  }
